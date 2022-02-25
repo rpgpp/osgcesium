@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application title="HopeMap3D Buildinger" icon="logo.ico">
+<pages>
+    <page caption="主页">
+      <group caption="">
+          <item type="" caption="打开" toolTip="" function="actionOpen" enable = "true" icon = "icon/file [#1677]"/>
+          <item type="" caption="清除" toolTip="" function="actionClear" enable = "true" icon = "icon/cloud_close [#1065]"/>
+          <item type="" caption="拾取" toolTip="" function="actionPick" enable = "true" icon = "icon/mouse_pointer [#6]"/>
+          <item type="s" caption="指北针" toolTip="" function="actionShowCompass" enable = "true" icon = "icon/done [#1477]"/>
+          <item type="s" caption="比例尺" toolTip="" function="actionShowLengthDistance" enable = "true" icon = "icon/close [#1538]"/>
+          <item type="s" caption="帧率" toolTip="" function="actionShowFrameRate" enable = "true" icon = "icon/done [#1477]"/>
+          <item type="s" caption="调试GeometricError" toolTip="" function="debugShowGeometricError" enable = "true" icon = "icon/bug [#828]"/>
+          <item type="s" caption="调试统计模型" toolTip="" function="debugShowRenderingStatistics" enable = "true" icon = "icon/bug [#828]"/>
+          <item type="s" caption="调试包围盒" toolTip="" function="debugShowBoundingVolume" enable = "true" icon = "icon/bug [#828]"/>
+          <item type="s" caption="调试Memory" toolTip="" function="debugShowMemoryUsage" enable = "true" icon = "icon/bug [#828]"/>
+          <item type="s" caption="调试瓦片" toolTip="" function="debugColorizeTiles" enable = "true" icon = "icon/bug [#828]"/>
+          <item type="s" caption="调试Url" toolTip="" function="debugShowUrl" enable = "true" icon = "icon/bug [#828]"/>
+          <item type="" caption="时间线" toolTip="" function="actionShowTimeline" enable = "true" icon = "icon/clock [#1315]"/>
+          <item type="" caption="显示地球" toolTip="" function="actionShowGlobe" enable = "false" icon = "icon/bowling [#788]"/>
+          <item type="" caption="地形光照" toolTip="" function="actionTerrainLight" enable = "true" icon = "icon/ball [#783]"/>
+          <item type="" caption="深度检测" toolTip="" function="actionTerrainDepthTest" enable = "false" icon = "icon/adobe_cloud [#131]"/>
+          <item type="" caption="晴天" toolTip="" function="actionSun" enable = "true" icon = "icon/clouds_sun [#1273]"/>
+          <item type="" caption="下雪" toolTip="" function="actionSnow" enable = "true" icon = "icon/moon [#1250]"/>
+          <item type="" caption="下雨" toolTip="" function="actionRain" enable = "true" icon = "icon/winter_is_coming [#1258]"/>
+          <item type="" caption="雾气" toolTip="" function="actionFog" enable = "true" icon = "icon/evernote [#156]"/>
+      </group>
+      <group caption="漫游">
+          <item type="" caption="定位" toolTip="" function="actionLocate" enable = "true" icon = "icon/pin_fill_rounded_circle [#630]"/>
+          <item type="" caption="自转" toolTip="" function="actionTravelAround" enable = "true" icon = "icon/ball [#783]"/>
+          <item type="" caption="视角" toolTip="" function="actionBookmark" enable = "true" icon = "icon/bookmark [#1245]"/>
+      </group>
+      <group caption="模型">
+          <item type="" caption="gltf" toolTip="" function="actionBuilding" enable = "true" icon = "icon/building [#808]"/>
+          <item type="" caption="样式" toolTip="" function="actionStyle" enable = "true" icon = "icon/flower [#105]"/>
+          <item type="" caption="阴影" toolTip="" function="actionBuildingShadow" enable = "true" icon = "icon/snapchat [#136]"/>
+      </group>
+  </page>
+  <page caption="气象">
+      <group caption="数据">
+          <item type="" caption="风场" toolTip="" function="actionLoadWind" enable = "true" icon = "icon/flag_bug_report [#1493]"/>
+          <item type="" caption="云图" toolTip="" function="actionLoadCloud" enable = "true" icon = "icon/clubs [#96]"/>
+          <item type="" caption="雷达" toolTip="" function="actionLoadRadar" enable = "true" icon = "icon/satellite [#1013]"/>
+          <item type="" caption="闪电" toolTip="" function="actionLoadThunder" enable = "true" icon = "icon/lightning [#1262]"/>
+      </group>
+      <group caption="分析">
+          <item type="" caption="体剖切" toolTip="" function="actionLineVolume" enable = "true" icon = "icon/object_placement [#65]"/>
+          <item type="" caption="区域体" toolTip="" function="actionRectVolume" enable = "true" icon = "icon/9gag [#152]"/>
+      </group>
+  </page>
+  <page caption="标绘">
+      <group caption="常规">
+        <item type="" caption="图标点" toolTip="" function="actionDrawPin" enable = "true" icon = "icon/balloon [#42]"/>
+        <item type="" caption="DIV" toolTip="" function="actionDrawDivPin" enable = "true" icon = "icon/message [#1576]"/>
+        <item type="" caption="折线" toolTip="" function="actionDrawLine" enable = "true" icon = "icon/arrow_right [#298]"/>
+        <item type="" caption="圆形" toolTip="" function="actionDrawCircle" enable = "true" icon = "icon/wheel [#115]"/>
+        <item type="" caption="矩形" toolTip="" function="actionDrawRect" enable = "true" icon = "icon/window_plus [#1463]"/>
+      </group>
+  </page>
+    <page caption="动态">
+        <group caption="gif">
+            <item type="" caption="墙" toolTip="" function="actionGifWall" enable = "true" icon = "icon/file_gif [#1743]"/>
+            <item type="" caption="线" toolTip="" function="actionGifLine" enable = "true" icon = "icon/file_gif [#1743]"/>
+            <item type="" caption="面" toolTip="" function="actionGifSurf" enable = "true" icon = "icon/file_gif [#1743]"/>
+        </group>
+        <group caption="">
+            <item type="" caption="视频" toolTip="" function="actionVideo" enable = "true" icon = "icon/train [#608]"/>
+            <item type="" caption="OD线" toolTip="" function="actionODLine" enable = "true" icon = "icon/file_arrow_up [#1718]"/>
+        </group>
+        <group caption="特效">
+            <item type="" caption="夜视" toolTip="" function="actionNightVision" enable = "true" icon = "icon/emoji_sad_square [#404]"/>
+            <item type="" caption="马赛克" toolTip="" function="actionMosic" enable = "true" icon = "icon/emoji_simple_non_face_circle [#564]"/>
+            <item type="" caption="双屏" toolTip="" function="actionDoubleSide" enable = "true" icon = "icon/emoji_simple_no_face_circle [#554]"/>
+            <item type="" caption="地形着色" toolTip="" function="actionTerrainShader" enable = "true" icon = "icon/emoji_surprised_circle [#536]"/>
+        </group>
+  </page>
+  <page caption="工具">
+      <group caption="3dtiles">
+        <item type="" caption="转换b3dm" toolTip="" function="actionObj23dtiles" enable = "true" icon = "icon/arrow_repeat [#243]"/>
+        <item type="" caption="转换i3dm" toolTip="" function="actionConvertI3dm" enable = "false" icon = "icon/arrow_repeat [#243]"/>
+        <item type="" caption="转换pnts" toolTip="" function="actionConvertPnts" enable = "false" icon = "icon/arrow_repeat [#243]"/>
+        <item type="" caption="转换gltf" toolTip="" function="actionConvertGltf" enable = "true" icon = "icon/arrow_repeat [#243]"/>
+        <item type="" caption="矢量建筑" toolTip="" function="actionConvertShp" enable = "true" icon = "icon/arrow_repeat [#243]"/>
+        <item type="" caption="倾斜摄影" toolTip="" function="actionConvertOblique" enable = "true" icon = "icon/arrow_repeat [#243]"/>
+        <item type="" caption="管线建模" toolTip="" function="actionConvertPipe" enable = "true" icon = "icon/arrow_repeat [#243]"/>
+        <item type="" caption="转换命令" toolTip="" function="actionConvertCommand" enable = "true" icon = "icon/arrow_up_circle [#308]"/>
+      </group>
+  </page>
+  <page caption="其他">
+      <group caption="">
+        <item type="" caption="浏览器" toolTip="" function="actionLink" enable = "true" icon = "icon/google_chrome [#157]"/>
+        <item type="" caption="About" toolTip="" function="actionAbout" enable = "true" icon = "icon/question [#1444]"/>
+      </group>
+  </page>
+</pages>
+</application>
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR})
+INCLUDE_DIRECTORIES(${WORKINGPATH}/src)
+
+SET(LIB_NAME OCModel)
+
+SET(TARGET_H
+    BuildWell.h
+    DataFilter.h
+    FieldMapping.h
+    GeometryBuilder.h
+    IModelData.h
+    IModelDatabase.h
+    IModelFactory.h
+    IModelTable.h
+    ISection.h
+    LineTable.h
+    ModelDataManager.h
+    ModelDataQueryCallback.h
+    ModelDefine.h
+    ModelListennerBase.h
+    ModelNode.h
+    ModelUtility.h
+    NodeExInfo.h
+    NodeTable.h
+    PipeData.h
+    PipeGeomLibrary.h
+    PipeLine.h
+    PipeLineInfo.h
+    PipeMath.h
+    PipeModelFactory.h
+    PipeNode.h
+    PipeTable.h
+    ProjectTool.h
+    QuadTreeGenerator.h
+    SaveStrategy.h
+    TableConfig.h
+    TilesetSaveStrategy.h
+    xmlConfig.h
+)
+
+SET(TARGET_SRC
+    src/BuildWell.cpp
+    src/CirclePipeLine.cpp
+    src/CirclePipeNode1.cpp
+    src/CirclePipeNode2.cpp
+    src/CirclePipeNode3.cpp
+    src/DataFilter.cpp
+    src/FieldMapping.cpp
+    src/GeometryBuilder.cpp
+    src/GlobalNode.cpp
+    src/IModelData.cpp
+    src/IModelDatabase.cpp
+    src/IModelFactory.cpp
+    src/IModelTable.cpp
+    src/ISection.cpp
+    src/LineTable.cpp
+    src/ModelDataManager.cpp
+    src/ModelDataQueryCallback.cpp
+    src/ModelListennerBase.cpp
+    src/Modelnode.cpp
+    src/ModelUtility.cpp
+    src/NodeExInfo.cpp
+    src/NodeTable.cpp
+    src/PipeCylinder.cpp
+    src/PipeData.cpp
+    src/PipeGeomLibrary.cpp
+    src/PipeLine.cpp
+    src/PipeLineInfo.cpp
+    src/PipeMath.cpp
+    src/PipeModelFactory.cpp
+    src/PipeNode.cpp
+    src/PipeTable.cpp
+    src/PipeWell.cpp
+    src/PipeWell1.cpp
+    src/ProjectTool.cpp
+    src/RectPipeLine.cpp
+    src/RectPipeNode1.cpp
+    src/RectPipeNode2.cpp
+    src/SaveStrategy.cpp
+    src/TableConfig.cpp
+    src/TilesetSaveStrategy.cpp
+    src/xmlConfig.cpp
+)
+
+SET(TARGET_LIBRARIES 
+    OpenThreads
+    osg
+    osgDB
+    osgUtil
+    osgEarth
+    OCUtility
+    OCMain
+    OCesium
+    OCLayer
+)
+
+
+SETUP_LIBRARY(${LIB_NAME})

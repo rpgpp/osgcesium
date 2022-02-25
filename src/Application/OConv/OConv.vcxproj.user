@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>{\"function\":\"conv2obj\",\"filename\":\"H:/Work/coastal_river_edge/scene1.osgb\"}</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>{\"function\":\"conv2obj\",\"filename\":\"H:/Work/coastal_river_edge/scene1.osgb\"}</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelDebug|Win32'">
+    <LocalDebuggerCommandArguments>{\"function\":\"conv2obj\",\"filename\":\"H:/Work/coastal_river_edge/scene1.osgb\"}</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>{\"function\":\"test\",\"filename\":\"I:/Data/倾斜摄影/dayanta/data\",\"output\":\"I:/Dev/Assets/3dtiles/dayanta\",\"enableDracoCompress\":true,\"geometryErroRatio\":1.0,\"disableLight\":true,\"enableWebpCompress\":true,\"MaxTextureSize\":512,\"mergeRepeatTexture\":false,\"AtlasImageSize\":4096,\"threadNum\":1,\"mergeTop\":true,\"location\":\"108.9594 34.2196 -400.0\"}</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>{\"function\":\"nc2raw\",\"filename\":\"E:/volume/data/Z_RADR_I_Z9270_20210514234800_O_DOR_SA_CAP_FMT.bin.bz2\",\"varname\":\"SA\"}</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelDebug|x64'">
+    <LocalDebuggerCommandArguments>{\"function\":\"test\",\"filename\":\"E:/volume/data/EZHOU_CAPPI_20210930170109.nc\",\"varname\":\"DBZ\"}</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,42 @@
+#ifndef _OSGEARTH_HEADER_H__
+#define _OSGEARTH_HEADER_H__
+#pragma warning(disable:4100)
+
+#include <osgEarth/Cache>
+#include <osgEarth/CullingUtils>
+#include <osgEarth/ElevationQuery>
+#include <osgEarth/GeoData>
+#include <osgEarth/GeoMath>
+#include <osgEarth/GeoTransform>
+#include <osgEarth/GLUtils>
+#include <osgEarth/HTTPClient>
+#include <osgEarth/ImageUtils>
+#include <osgEarth/IntersectionPicker>
+//#include <osgEarth/JsonUtils>
+#include <osgEarth/optional>
+#include <osgEarth/Lighting>
+#include <osgEarth/MapNode>
+#include <osgEarth/ModelSource>
+#include <osgEarth/PhongLightingEffect>
+#include <osgEarth/Random>
+#include <osgEarth/Registry>
+#include <osgEarth/Shadowing>
+#include <osgEarth/ShaderUtils>
+#include <osgEarth/ShaderLoader>
+#include <osgEarth/SpatialReference>
+#include <osgEarth/StringUtils>
+#include <osgEarth/TDTiles>
+#include <osgEarth/TerrainEffect>
+#include <osgEarth/TerrainEngineNode>
+#include <osgEarth/URI>
+#include <osgEarth/Units>
+#include <osgEarth/Viewpoint>
+#include <osgEarth/VirtualProgram>
+#include <osgEarth/XmlUtils>
+#include <osgEarth/LandCover>
+#include <osgEarth/LandCoverLayer>
+#include <osgEarth/VideoLayer>
+#include <osgEarth/FeatureSource>
+#include <osgEarth/OGRFeatureSource>
+
+#endif

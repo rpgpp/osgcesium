@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main/main.html</file>
+        <file>res/splash.png</file>
+        <file>res/logo.png</file>
+        <file>res/earth.png</file>
+        <file>res/app.png</file>
+		<file>main/cplusplus.js</file>
+		<file>main/qwebchannel.js</file>
+        <file>res/splash2.png</file>
+        <file>main/app.js</file>
+		<file>main/WeatherEarth.js</file>
+		<file>res/menu.xml</file>
+    </qresource>
+</RCC>
