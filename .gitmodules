@@ -1,3 +1,6 @@
 [submodule "OpenSceneGraph"]
 	path = OpenSceneGraph
 	url = https://github.com/openscenegraph/OpenSceneGraph.git
+[submodule "osgearth"]
+	path = osgearth
+	url = https://github.com/gwaldron/osgearth.git
